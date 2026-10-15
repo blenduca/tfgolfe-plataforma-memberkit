@@ -1,0 +1,134 @@
+/* =============================================================
+ * TOKENS
+ *
+ * Cores do sistema em HSL ("H S% L%"), usadas como hsl(var(--x)).
+ *
+ * [CLIENTE] — MUTÁVEIS, definidas no platform.config.js e injetadas
+ * por src/js/theme.js na criação de cada plataforma (NUNCA edite aqui):
+ *   --brand, --brand-light, --brand-dark, --brand-invert   botões, progresso, links, foco
+ *   --navbar-primary, --navbar-secondary                    cores da barra lateral
+ *   --navbar-background                                     imagem da barra lateral
+ *   --page                                                  fundo das páginas (tema classic)
+ *   --font-sans                                             fonte da interface
+ *
+ * IMUTÁVEL — todo o resto: medidas, raios e os 4 temas abaixo.
+ * Os valores padrão deste arquivo são NEUTROS (preto, branco e cinzas):
+ * o template não tem identidade visual de propósito.
+ * ============================================================= */
+
+:root {
+  /* ---- medidas ---- */
+  --topbar-h: 4rem;          /* 64px */
+  --navbar-w-closed: 3.5rem; /* 56px */
+  --navbar-w-open: 15rem;    /* 240px */
+  --radius-sm: .25rem;
+  --radius: .375rem;
+  --radius-lg: .5rem;
+  --radius-xl: .75rem;
+  --ease: cubic-bezier(.4, 0, .2, 1);
+
+  /* ---- fonte: [CLIENTE] typography.fontFamily — padrão Helvetica ---- */
+  --font-sans: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+  /* ---- tema "classic" (claro, cinzas neutros) ---- */
+  --background: 0 0% 100%;
+  --foreground: 0 0% 9%;
+  --popover: 0 0% 100%;
+  --popover-foreground: 0 0% 9%;
+  --secondary: 0 0% 91%;
+  --secondary-foreground: 0 0% 15%;
+  --muted: 0 0% 96.1%;
+  --muted-foreground: 0 0% 45.1%;
+  --accent: 0 0% 96.1%;
+  --accent-foreground: 0 0% 9%;
+  --destructive: 0 72.22% 50.59%;   /* único tom não-cinza: alertas/erros */
+  --destructive-foreground: 0 0% 98%;
+  --card: 0 0% 100%;
+  --border: 0 0% 89.8%;
+  --input: 0 0% 83.1%;
+  --ring: var(--brand-light);
+  --page: 0 0% 98%;                 /* [CLIENTE] appearance.pageBackground */
+
+  /* ---- marca: [CLIENTE] appearance.brandColor ---- */
+  --brand-light: 0 0% 52.5%;
+  --brand: 0 0% 45.1%;
+  --brand-dark: 0 0% 36%;
+  --brand-invert: 0 0% 100%;
+
+  /* ---- barra lateral: [CLIENTE] appearance.sidebarColors / images.sidebarBackground ---- */
+  --navbar-primary: 0 0% 9%;
+  --navbar-secondary: 0 0% 0%;
+  --navbar-background: none;
+
+  /* ---- hero do ranking por tema da topbar ---- */
+  --ranking-hero-bg: #171717;
+  --ranking-subtitle-color: #a3a3a3;
+
+  color-scheme: light;
+}
+
+/* ---- temas escuros: aplicados em .dark dentro de [data-theme=x] ou em .dark[data-theme=x] ---- */
+:where([data-theme=carbon] .dark, .dark[data-theme=carbon]) {
+  --background: 223 0% 3.9%;
+  --foreground: 223 0% 98%;
+  --popover: 223 0% 14.9%;
+  --popover-foreground: 223 0% 98%;
+  --secondary: 223 0% 14.9%;
+  --secondary-foreground: 223 0% 98%;
+  --muted: 223 0% 14.9%;
+  --muted-foreground: 223 0% 63%;
+  --accent: 223 0% 25%;
+  --accent-foreground: 223 0% 98%;
+  --destructive: 358.8 100% 69.8%;
+  --destructive-foreground: 223 0% 98%;
+  --card: 223 0% 9%;
+  --border: 223 0% 15.5%;
+  --input: 223 0% 20.4%;
+  --page: var(--background);
+  color-scheme: dark;
+}
+
+:where([data-theme=dracula] .dark, .dark[data-theme=dracula]) {
+  --background: 249 24% 5%;
+  --foreground: 245 50% 93%;
+  --popover: 247 25% 8%;
+  --popover-foreground: 245 50% 93%;
+  --secondary: 248 27% 11%;
+  --secondary-foreground: 245 50% 93%;
+  --muted: 248 27% 13%;
+  --muted-foreground: 248 15% 55%;
+  --accent: 267 20% 15%;
+  --accent-foreground: 245 50% 93%;
+  --destructive: 343 55% 55%;
+  --destructive-foreground: 0 0% 100%;
+  --card: 247 25% 8%;
+  --border: 248 20% 13%;
+  --input: 249 16% 17%;
+  --page: var(--background);
+  color-scheme: dark;
+}
+
+:where([data-theme=prime] .dark, .dark[data-theme=prime]) {
+  --background: 220 16% 5%;
+  --foreground: 219 28% 88%;
+  --popover: 220 16% 12%;
+  --popover-foreground: 218 27% 92%;
+  --secondary: 220 17% 12%;
+  --secondary-foreground: 218 27% 94%;
+  --muted: 220 16% 14%;
+  --muted-foreground: 219 14% 55%;
+  --accent: 220 16% 18%;
+  --accent-foreground: 218 27% 94%;
+  --destructive: 354 38% 50%;
+  --destructive-foreground: 0 0% 100%;
+  --card: 222 16% 9%;
+  --border: 220 16% 15%;
+  --input: 220 16% 17%;
+  --page: var(--background);
+  color-scheme: dark;
+}
+
+/* hero do ranking acompanha o tema da topbar */
+:root:has(.topbar[data-theme=carbon])  { --ranking-hero-bg: #121212; --ranking-subtitle-color: #a1a1aa; }
+:root:has(.topbar[data-theme=dracula]) { --ranking-hero-bg: #0f0e16; --ranking-subtitle-color: #847fa4; }
+:root:has(.topbar[data-theme=prime])   { --ranking-hero-bg: #0f1115; --ranking-subtitle-color: #7c88a2; }

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1152" height="320" viewBox="0 0 1152 320" data-placeholder="true">
+  <rect width="1152" height="320" fill="#d4d4d4"/>
+  <path d="M0 0L1152 320M1152 0L0 320" stroke="#737373" stroke-opacity=".35" stroke-width="1"/>
+  <text x="806" y="169.1" font-family="Helvetica, Arial, sans-serif" font-size="26" font-weight="700" fill="#737373" text-anchor="middle">HERO 1152 × 320</text>
+</svg>

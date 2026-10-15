@@ -1,0 +1,240 @@
+[
+  {
+    "course": "rh",
+    "id": "5702596",
+    "title": "Materiais de RH",
+    "scene": "materials",
+    "file": "assets/courses/lesson-rh-5702596.jpg"
+  },
+  {
+    "course": "rh",
+    "id": "5702581",
+    "title": "Boas-vindas",
+    "scene": "welcome",
+    "file": "assets/courses/lesson-rh-5702581.jpg"
+  },
+  {
+    "course": "rh",
+    "id": "5708045",
+    "title": "Perfil do profissional",
+    "scene": "rh",
+    "file": "assets/courses/lesson-rh-5708045.jpg"
+  },
+  {
+    "course": "rh",
+    "id": "5702582",
+    "title": "Implantação do RH",
+    "scene": "culture",
+    "file": "assets/courses/lesson-rh-5702582.jpg"
+  },
+  {
+    "course": "rh",
+    "id": "5708050",
+    "title": "RH estratégico",
+    "scene": "rh",
+    "file": "assets/courses/lesson-rh-5708050.jpg"
+  },
+  {
+    "course": "rh",
+    "id": "5702583",
+    "title": "Cultura e diagnóstico",
+    "scene": "culture",
+    "file": "assets/courses/lesson-rh-5702583.jpg"
+  },
+  {
+    "course": "rh",
+    "id": "5702584",
+    "title": "Planejamento estratégico",
+    "scene": "culture",
+    "file": "assets/courses/lesson-rh-5702584.jpg"
+  },
+  {
+    "course": "rh",
+    "id": "5702585",
+    "title": "Políticas e procedimentos",
+    "scene": "policies",
+    "file": "assets/courses/lesson-rh-5702585.jpg"
+  },
+  {
+    "course": "rh",
+    "id": "5708053",
+    "title": "Ética e conduta",
+    "scene": "policies",
+    "file": "assets/courses/lesson-rh-5708053.jpg"
+  },
+  {
+    "course": "rh",
+    "id": "5702586",
+    "title": "Abertura de vagas",
+    "scene": "recruit",
+    "file": "assets/courses/lesson-rh-5702586.jpg"
+  },
+  {
+    "course": "rh",
+    "id": "5708056",
+    "title": "Entrevista e devolutiva",
+    "scene": "recruit",
+    "file": "assets/courses/lesson-rh-5708056.jpg"
+  },
+  {
+    "course": "rh",
+    "id": "5702587",
+    "title": "Matriz de treinamentos",
+    "scene": "training",
+    "file": "assets/courses/lesson-rh-5702587.jpg"
+  },
+  {
+    "course": "rh",
+    "id": "5702588",
+    "title": "Cargos e salários",
+    "scene": "salary",
+    "file": "assets/courses/lesson-rh-5702588.jpg"
+  },
+  {
+    "course": "rh",
+    "id": "5702589",
+    "title": "Endomarketing",
+    "scene": "academy",
+    "file": "assets/courses/lesson-rh-5702589.jpg"
+  },
+  {
+    "course": "rh",
+    "id": "5702590",
+    "title": "Indicadores de RH",
+    "scene": "salary",
+    "file": "assets/courses/lesson-rh-5702590.jpg"
+  },
+  {
+    "course": "rh",
+    "id": "5702591",
+    "title": "Pesquisa de clima",
+    "scene": "climate",
+    "file": "assets/courses/lesson-rh-5702591.jpg"
+  },
+  {
+    "course": "rh",
+    "id": "5708201",
+    "title": "Plano de ação",
+    "scene": "climate",
+    "file": "assets/courses/lesson-rh-5708201.jpg"
+  },
+  {
+    "course": "rh",
+    "id": "5702592",
+    "title": "Subsistemas de RH",
+    "scene": "training",
+    "file": "assets/courses/lesson-rh-5702592.jpg"
+  },
+  {
+    "course": "rh",
+    "id": "5708205",
+    "title": "Inovação em RH",
+    "scene": "academy",
+    "file": "assets/courses/lesson-rh-5708205.jpg"
+  },
+  {
+    "course": "rh",
+    "id": "5702593",
+    "title": "Liderança",
+    "scene": "mentor",
+    "file": "assets/courses/lesson-rh-5702593.jpg"
+  },
+  {
+    "course": "rh",
+    "id": "5708217",
+    "title": "Agradecimento",
+    "scene": "welcome",
+    "file": "assets/courses/lesson-rh-5708217.jpg"
+  },
+  {
+    "course": "dirf",
+    "id": "5708431",
+    "title": "Contexto e mudanças 01",
+    "scene": "dirf",
+    "file": "assets/courses/lesson-dirf-5708431.jpg"
+  },
+  {
+    "course": "dirf",
+    "id": "5708436",
+    "title": "Contexto e mudanças 02",
+    "scene": "esocial",
+    "file": "assets/courses/lesson-dirf-5708436.jpg"
+  },
+  {
+    "course": "dirf",
+    "id": "5708439",
+    "title": "Preparação do sistema",
+    "scene": "esocial",
+    "file": "assets/courses/lesson-dirf-5708439.jpg"
+  },
+  {
+    "course": "dirf",
+    "id": "5708440",
+    "title": "Rendimentos e retenções",
+    "scene": "dirf",
+    "file": "assets/courses/lesson-dirf-5708440.jpg"
+  },
+  {
+    "course": "dirf",
+    "id": "5708442",
+    "title": "Casos complexos",
+    "scene": "compliance",
+    "file": "assets/courses/lesson-dirf-5708442.jpg"
+  },
+  {
+    "course": "dirf",
+    "id": "5708443",
+    "title": "Conferência e críticas",
+    "scene": "crosscheck",
+    "file": "assets/courses/lesson-dirf-5708443.jpg"
+  },
+  {
+    "course": "dirf",
+    "id": "5708444",
+    "title": "Compliance tributário",
+    "scene": "compliance",
+    "file": "assets/courses/lesson-dirf-5708444.jpg"
+  },
+  {
+    "course": "dirf",
+    "id": "5708497",
+    "title": "Mentoria Fevereiro",
+    "scene": "mentor",
+    "file": "assets/courses/lesson-dirf-5708497.jpg"
+  },
+  {
+    "course": "dirf",
+    "id": "5708498",
+    "title": "Mentoria Janeiro",
+    "scene": "mentor",
+    "file": "assets/courses/lesson-dirf-5708498.jpg"
+  },
+  {
+    "course": "dirf",
+    "id": "5708500",
+    "title": "Mentoria DIRF Digital",
+    "scene": "mentor",
+    "file": "assets/courses/lesson-dirf-5708500.jpg"
+  },
+  {
+    "course": "dirf",
+    "id": "5702598",
+    "title": "Planilhas e materiais",
+    "scene": "materials",
+    "file": "assets/courses/lesson-dirf-5702598.jpg"
+  },
+  {
+    "course": "dirf",
+    "id": "5708391",
+    "title": "XML eSocial",
+    "scene": "esocial",
+    "file": "assets/courses/lesson-dirf-5708391.jpg"
+  },
+  {
+    "course": "trabalhista",
+    "id": "5707489",
+    "title": "Atualizações trabalhistas",
+    "scene": "labor",
+    "file": "assets/courses/lesson-trabalhista-5707489.jpg"
+  }
+]

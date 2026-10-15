@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="420" viewBox="0 0 300 420" data-placeholder="true">
+  <rect width="300" height="420" fill="#e5e5e5"/>
+  <path d="M0 0L300 420M300 0L0 420" stroke="#a3a3a3" stroke-opacity=".35" stroke-width="1"/>
+  <text x="150.0" y="218.4" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="700" fill="#a3a3a3" text-anchor="middle">MÓDULO 300 × 420</text>
+</svg>

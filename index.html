@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="pt-BR" data-theme="classic">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="robots" content="noindex" />
+  <title>Plataforma</title>
+  <link rel="icon" href="assets/placeholders/favicon.svg" />
+  <link rel="stylesheet" href="src/css/tokens.css" />
+  <link rel="stylesheet" href="src/css/components.css" />
+  <link rel="stylesheet" href="src/css/pages.css" />
+</head>
+<body>
+  <!-- Toda a interface é montada por src/js/main.js a partir dos dois arquivos de config.
+       A fonte do cliente é carregada por src/js/theme.js (platform.config.js → typography). -->
+  <div id="app"></div>
+
+  <script src="platform.config.js"></script>
+  <script src="content.config.js"></script>
+  <script type="module" src="src/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="1050" viewBox="0 0 700 1050" data-placeholder="true">
+  <rect width="700" height="1050" fill="#404040"/>
+  <path d="M0 0L700 1050M700 0L0 1050" stroke="#737373" stroke-opacity=".35" stroke-width="1"/>
+  <text x="350.0" y="556.5" font-family="Helvetica, Arial, sans-serif" font-size="90" font-weight="700" fill="#737373" text-anchor="middle">700 × 1050</text>
+</svg>
